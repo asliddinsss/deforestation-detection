@@ -1,4 +1,4 @@
-# 🌿 Deforestation Detection from Satellite Imagery
+#  Deforestation Detection from Satellite Imagery
 ### Using Deep Learning (CNN + Transfer Learning) to Monitor Forest Loss
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Manual monitoring of deforestation is slow, expensive, and geographically limited. Remote sensing satellites (like Landsat and Sentinel-2) capture the entire Earth every few days — but analyzing this imagery at scale requires automation.
 
@@ -18,7 +18,7 @@ This project trains a CNN-based binary classifier on labeled satellite image pat
 
 ---
 
-## 📊 Results
+## Results
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
@@ -30,7 +30,7 @@ This project trains a CNN-based binary classifier on labeled satellite image pat
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 deforestation-detection/
@@ -67,7 +67,7 @@ deforestation-detection/
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 This project uses the **[Planet: Understanding the Amazon from Space](https://www.kaggle.com/c/planet-understanding-the-amazon-from-space)** dataset (Kaggle), which contains 40,000+ multi-label satellite image chips from the Amazon rainforest.
 
@@ -79,11 +79,11 @@ For a lightweight demo, we also include 200 sample patches in `data/samples/` so
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/deforestation-detection.git
+git clone https://github.com/asliddinsss/deforestation-detection.git
 cd deforestation-detection
 ```
 
@@ -110,7 +110,7 @@ Open `01_data_exploration.ipynb` first, then follow the sequence.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 We use **ResNet-18** pre-trained on ImageNet, with the final fully-connected layer replaced for binary classification:
 
@@ -130,7 +130,7 @@ FC(256 → 2) + Softmax
 
 ---
 
-## 📈 Training Details
+## Training Details
 
 | Parameter | Value |
 |---|---|
@@ -145,7 +145,7 @@ FC(256 → 2) + Softmax
 
 ---
 
-## 🌍 Real-World Impact
+## Real-World Impact
 
 This kind of system, deployed at scale with real-time satellite feeds, could:
 - Alert environmental agencies within days of deforestation events (vs. months of manual review)
@@ -156,7 +156,7 @@ This project is part of my broader research into **AI for environmental monitori
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - [ ] Multi-class segmentation (not just classify patches, but pixel-level maps)
 - [ ] Deploy as a web API so NGOs can submit their own satellite crops for analysis
@@ -165,7 +165,7 @@ This project is part of my broader research into **AI for environmental monitori
 
 ---
 
-## 👤 Author
+## Author
 
 **Asliddin** — Grade 9, Presidential School, Namangan, Uzbekistan  
 AI/ML Researcher | Climate Advocate | APIO Finalist 2025  
